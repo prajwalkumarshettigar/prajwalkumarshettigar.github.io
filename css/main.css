@@ -1,0 +1,178 @@
+ * {
+   /*border: 1px solid red !important;*/
+ }
+
+body {
+  box-sizing: border-box;
+  display: block;
+  margin: auto;
+  font-family: "Lato", sans-serif;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  width:100%;
+}
+
+div {
+  display: block;
+}
+
+.name {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  display: inline;
+  text-transform: uppercase;
+  margin: auto;
+}
+
+.last-name {
+  font-family: "Lato", sans-serif;
+  display: inline;
+  font-weight: 100;
+  color: orange;
+}
+
+.occ {
+  text-transform: uppercase;
+  color: #777;
+  font-family: "Lato", sans-serif;
+  margin-top: 0.2em;
+  font-size: 15px;
+}
+
+.logo {
+  max-height: 75px;
+  max-width: 75px;
+}
+
+.header {
+  align-items: center;
+  vertical-align: middle;
+}
+
+.header-info {
+  text-align: right;
+}
+
+.misc {
+  text-transform: uppercase;
+  padding-top: 2em;
+}
+
+.list {
+  text-align: center;
+  position: relative;
+  padding-left: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.hr-style {
+	border-top: 1px solid orange;
+}
+
+.description {
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    bottom: 0;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-family: "Lato", sans-serif;
+    font-weight: lighter;
+    z-index: 1;
+}
+
+.blog-description {
+    font-size: 1.6em;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: inherit;
+    font-family: "Lato", sans-serif;
+    font-weight: normal;
+}
+
+.welcome {
+  position: relative;
+  width: 100%;
+  margin: auto;
+}
+
+.main {
+  position: relative;
+}
+
+.main-image {
+  margin: auto;
+}
+
+.sub-head {
+  padding-left: 20px;
+  font-family: "Lato", sans-serif;
+  color: #777;
+}
+
+.other-projects {
+  font-family: "Lato", sans-serif;
+}
+
+.pro {
+  margin: auto;
+}
+
+.zocial-twitter {
+    font-family: "zocial", sans-serif;
+    font-size: 2em;
+    color: #0084b4;
+    text-decoration: none !important;
+}
+
+.zocial-facebook {
+    font-family: "zocial", sans-serif;
+    font-size: 2em;
+    color:#3b5998;
+    text-decoration: none !important;
+}
+
+.zocial-googleplus {
+    font-family: "zocial", sans-serif;
+    font-size: 2em;
+    padding-left: 0.5em;
+    color: #db3236;
+    text-decoration: none !important;
+}
+
+.social {
+        font-weight: bold;
+        font-size: 1em;
+        color: #777;
+        line-height: 100px;
+        vertical-align: middle;
+}
+
+/*media queries*/
+@media screen and (max-width : 500px) {
+  .logo {
+      margin: auto;
+  }
+
+  .header-info {
+    text-align: center;
+  }
+
+  .disc {
+    font-size: 18px;
+  }
+
+  .disc-blog {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width : 322px) {
+  .disc-blog {
+    font-size: 10px;
+  }
+
+}
